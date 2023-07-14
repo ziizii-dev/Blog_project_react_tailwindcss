@@ -19,14 +19,14 @@ const Header = () => {
   return (
     <div className="shadow-md w-full fixed   top-0 left-0">
         <div className="md:flex items-center  justify-between bg-blue-300  py-4 md:px-10 px-7 ">
-            <div className='font-bold text-3xl sticky cursor-pointer flex items-center text-gray-800'>
-            <img src= {logo}  className='w-[100px]'  />TECHNO
+            <div className='font-bold text-2xl sticky cursor-pointer flex items-center text-gray-800'>
+            <img src= {logo}  className='w-[70px]'  />TECHNO
                
                
                <div className="md:flex items-center px-10">
                <ul className='md:flex md:items-center'>
                {Links.map((link) => (
-                  <li key={link.name} className="md:ml-8 text-xl">
+                  <li key={link.name} className="md:ml-8 text-base">
                   <a href={link.link} className=" text-blue-600 hover:text-emerald-700">{link.name}</a>
                    </li>
                     ))}
@@ -37,7 +37,7 @@ const Header = () => {
         </div>
             
            
-            <button className='blue rounded-fully bg-purple-900 text-white hover:bg-blue-500'>Hire Us</button>
+            <button className='blue rounded-fully  bg-blue-600 text-white  hover:bg-violet-500'>Hire Us</button>
     
 
             

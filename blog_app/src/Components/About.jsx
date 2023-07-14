@@ -13,8 +13,10 @@ const About = () => {
             
             <div className='grid grid-row-8 flex-2 text-lg'>
               <h3> We have now launched operations in Europe.</h3>
-                 <h2 className='text-balck text-3xl font-light mt-5'> <span className='font-bold'>Hire the best</span>  <span className='bg-white font-bold text-purple-900'>Marketing Team.</span> </h2>
-                 <button className='mt-12 w-48 bg-purple-900 text-sm rounded-fully py-2  hover:bg-blue-500'>Read Customer Stories</button>
+                 <h2 className='text-balck text-3xl font-light mt-5'> <span className='font-bold'>Hire the best</span>  <span className='bg-yellow-100 font-bold text-purple-900'>Marketing Team.</span> </h2>
+                 <button className=' mt-12 w-48
+                  text-sm rounded-fully py-2  bg-blue-600 text-white  hover:bg-violet-500 '>Read Customer Stories</button>
+                   
              
             </div>
             <div className='grid grid-row-4 flex-1'>

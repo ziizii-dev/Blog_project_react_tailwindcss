@@ -35,16 +35,15 @@ const Body = () => {
             
                <ul className='flex px-0 mt-6 mb-6'>
                {Clients.map((data) => (
-                  <li key={data.name} className="md:mr-4 text-xl">
+                  <li key={data.name} className="md:mr-4 text-xl font-bold">
                     <h4>{data.qty}</h4>
-                 <h4 className='text-sm font-bold text-purple'>{data.name}</h4>
+                 <h4 className='text-xs font-bold text-purple-600'>{data.name}</h4>
                    </li> 
                     ))}
                 </ul>
-
-            
-
-             <button className='w-40 rounded-fully bg-violet-600 text-white  hover:bg-blue-500'>Learn More</button>
+                <button className='w-40 text-sm mt-6  rounded-fully
+                     bg-blue-600 text-white  hover:bg-violet-500'>Learn More</button>
+        
             
         </div>
        
