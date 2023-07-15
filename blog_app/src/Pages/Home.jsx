@@ -2,6 +2,7 @@ import React from 'react'
 import About from '../Components/About'
 import Blogs from '../Components/Blogs'
 import Body from '../Components/Body'
+import ClientPagination from '../Components/ClientPagination'
 import Clients from '../Components/Clients'
 import Footer from '../Components/Footer'
 import Header from '../Components/Header'
@@ -23,7 +24,7 @@ function Home() {
           <Services/>
           <Team/>
           <Projects/>
-          <Clients/>
+          <ClientPagination/>
         {/* <IntroPost/>
 
         <Blogs/>
