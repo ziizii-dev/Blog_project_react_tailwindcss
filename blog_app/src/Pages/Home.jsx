@@ -4,6 +4,7 @@ import Blogs from '../Components/Blogs'
 import Body from '../Components/Body'
 import ClientPagination from '../Components/ClientPagination'
 import Clients from '../Components/Clients'
+import Faq from '../Components/Faq'
 import Footer from '../Components/Footer'
 import Header from '../Components/Header'
 
@@ -25,6 +26,7 @@ function Home() {
           <Team/>
           <Projects/>
           <ClientPagination/>
+          <Faq/>
         {/* <IntroPost/>
 
         <Blogs/>
