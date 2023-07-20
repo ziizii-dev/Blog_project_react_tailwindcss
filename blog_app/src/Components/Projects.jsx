@@ -49,7 +49,7 @@ const Projects = () => {
             </div>
             <div className=' '>
                 <h3 className='text-sm text-blue-700 font-bold mb-8'>Our Portfolio</h3>
-                <div className='text-4xl font-extrabold'>We've done some <div className='text-blue-600'> amazing projects.</div> </div>
+                <div className='text-4xl font-extrabold'>We've done some <div className='text-indigo-600'> amazing projects.</div> </div>
                 <p className='opacity-80 mt-10 mb-14 justify-center '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.</p>
 
                 <a href=""> 

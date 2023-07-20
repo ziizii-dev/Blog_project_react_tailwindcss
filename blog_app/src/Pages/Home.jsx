@@ -27,6 +27,7 @@ function Home() {
           <Projects/>
           <ClientPagination/>
           <Faq/>
+          <Blogs/>
         {/* <IntroPost/>
 
         <Blogs/>

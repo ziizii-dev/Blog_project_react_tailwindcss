@@ -15,6 +15,18 @@ const Faq = () => {
       answer:
         "Here are some frequently asked questions about our hotels from our loving customers. Should you have any other questions, feel free to reach out via the contact form below.",
     },
+    {
+      question: "Is lunch provided for free course ?",
+      answer:
+        "Here are some frequently asked questions about our hotels from our loving customers. Should you have any other questions, feel free to reach out via the contact form below.",
+    },
+    
+    {
+      question: "Is lunch provided for free course ?",
+      answer:
+        "Here are some frequently asked questions about our hotels from our loving customers. Should you have any other questions, feel free to reach out via the contact form below.",
+    },
+    
     
   ];
 
@@ -30,16 +42,16 @@ const Faq = () => {
           <p className="text-4xl font-bold mt-6 mb-6">
             Do you have <span className="text-indigo-800">Questions ?</span>{" "}
           </p>
-          <p className="opacity-80">
+          <p className="opacity-60 text-bold">
             Here are some frequently asked questions about our hotels from our
             loving customers. Should you have any other questions, feel free to
             reach out via the contact form below.
           </p>
-          <div class="max-w-lg mx-auto p-8">
+          <div class="max-w-lg mx-auto ">
 
             <div className=" items-center">
 
-                {/* pppppp */}
+               {/* looping data section start */}
                 <ul className=' px-0 mt-6 mb-6'>
                {Faqs.map((data) => (
                   <li key={data.question} className="md:mr-4 text-xl font-bold">
@@ -47,9 +59,9 @@ const Faq = () => {
             <div>
                 <div
                   onClick={toggleOpenClose}
-                  className={` border-none text-dark font-bold`}
+                  className={` border-none text-gray-600 font-medium`}
                 >
-                  <div className="flex gap-2 items-center cursor-pointer delay-300">
+                  <div className="flex gap-2  items-center cursor-pointer delay-300">
                     <div>{data.question} </div>
                     <div>
                      {/*..... icons section..... */}
@@ -72,7 +84,7 @@ const Faq = () => {
                    </li> 
                     ))}
                 </ul>
-                {/* ppppp */}
+                {/* .........looping end */}
 
             
             </div>
